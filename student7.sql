@@ -9,4 +9,8 @@ insert into student values('211FA04003','SAICHARAN','25-12-2003','85','male',828
 insert into student values('211FA04004','SUMANTH','10-2003','90','male',8289785472);
 insert into student values('211FA04005','VINAY','05-04-2003','98.6','male',8289785472);
 insert into student values('211FA04006','SAI','09-05-2003','80','male',8289785472);
+select *from student;
+ALTER table student ADD(mother_name varchar(40),father_name varchar(40));
+RENAME table student to students;
+RENAME table students to student;
 select *from student
